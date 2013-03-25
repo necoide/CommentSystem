@@ -1,0 +1,67 @@
+root {
+    display: block;
+}
+body {
+    font-family: Helvetica;
+}
+.comments {
+    list-style:none;
+}
+body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 100px;
+  font-size: 13px;
+}
+.udetails {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.uavatar {
+    height: 80px;
+    width: 80px;
+}
+.ucomment {
+    /*float: left;*/
+    /*width: 80%;*/
+    max-width: 80%;
+    min-width: 10%;
+    text-align: left;
+    /*margin: 0px 20px;*/
+    margin-left: 90px;
+    word-wrap: break-word;
+}
+.cdetails {
+    border-bottom: 1px dotted;
+    margin-bottom: 5px;
+}
+
+.comment {
+  min-height: 80px;
+  overflow: hidden;
+  background: #fff;
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  /* box-shadow */
+  -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+.moreComments {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    box-shadow: rgba(0,0,0,0.5) 1px 1px 3px;
+}
+ul {
+    padding-left: 0;
+}
